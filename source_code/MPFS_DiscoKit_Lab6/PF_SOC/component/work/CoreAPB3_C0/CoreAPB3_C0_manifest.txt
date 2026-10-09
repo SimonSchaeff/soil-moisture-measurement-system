@@ -1,0 +1,33 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Thu Apr  9 16:42:06 2026
+Project   :  D:\DiscoKit\Libero\MPFS_DiscoKit_Lab1\PF_SOC
+Component :  CoreAPB3_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd
+
+Stimulus files for all Simulation tools:
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/misc.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/textio.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_package.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_ahbtoapb.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apb.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apbslaveext.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apbslave.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/test/user/testbench.vhd
+

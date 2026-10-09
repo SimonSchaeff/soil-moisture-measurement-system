@@ -1,0 +1,5 @@
+Library, Design Unit ,Compile time , Hardware Gen ,Optimization Stg1 ,Optimization Stg2 , Peak Mem Usage, Incr Mem Usage, Hardware Gen ,Optimization Stg1 ,Optimization Stg2
+work, caxi4interconnect_SlvProtocolConverter_Z9_layer1,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   217 MB,     0 MB,     0 MB,     0 MB,     0 MB
+work, caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   217 MB,     1 MB,     1 MB,     0 MB,     0 MB
+work, caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_32s_64s_0s_1s,0h:00m:01s,0h:00m:01s,-,0h:00m:00s,   218 MB,     1 MB,     1 MB,     0 MB,     0 MB
+work, COREAXI4INTERCONNECT_Z4_layer1,0h:00m:06s,0h:00m:06s,-,0h:00m:00s,   221 MB,     6 MB,     3 MB,     0 MB,     3 MB

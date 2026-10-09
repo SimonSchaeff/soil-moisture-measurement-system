@@ -1,0 +1,20 @@
+********************************************************************
+Delay Instance Report - Date: Tue Jun 23 17:35:29 2026
+Product: Designer
+Release: 2025.2
+Version: 2025.2.0.14
+Design Name: Top
+Family: PolarFireSoC
+Die: MPFS095T
+Package: FCSG325
+********************************************************************
+
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+
++-----------+------------------------------------------+-------------+-------------+-----------------+-----------+
+| Type      | Instance Name                            | Param Name  | Delay Value | PDC Option Name | Editable? |
++-----------+------------------------------------------+-------------+-------------+-----------------+-----------+
+| PLL_DELAY | PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0_DELAY | CDELAY0_SEL | 0           | DELAY           | No        |
++-----------+------------------------------------------+-------------+-------------+-----------------+-----------+
+

@@ -1,0 +1,167 @@
+# Tue Jun 23 16:58:46 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: WDESTO11433
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 191MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 204MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 204MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 193MB peak: 204MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 195MB peak: 204MB)
+
+
+@N: MF104 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":21:7:21:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z4_layer1(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Top level view:work.Top(rtl) 
+
+Start loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 288MB peak: 288MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Start creating ILM for FPGA COREAXI4INTERCONNECT_Z4_layer1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 307MB peak: 307MB)
+
+
+Finished creating ILM for FPGA COREAXI4INTERCONNECT_Z4_layer1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 308MB peak: 308MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 308MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\top\top.vhd":17:7:17:9|Mapping Top level view:work.Top(rtl) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 308MB)
+
+@N: MO111 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram.v":166:30:166:38|Tristate driver FAULT_DET (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z1_layer1(verilog)) on net FAULT_DET (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z1_layer1(verilog)) has its enable tied to GND.
+@N: BZ173 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreapb3\4.2.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[15:14] (in view: work.Top(rtl)) mapped in logic.
+@N: BZ173 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreapb3\4.2.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[15:14] (in view: work.Top(rtl)) mapped in logic.
+@N: MO106 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreapb3\4.2.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[15:14] (in view: work.Top(rtl)) with 1 words by 2 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 299MB peak: 308MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 299MB peak: 308MB)
+
+Encoding state machine state[0:3] (in view: work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\hdl\spi_master_for_mcp3204.vhd":127:8:127:9|There are no possible illegal states for state machine state[0:3] (in view: work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl)); safe FSM implementation is not required.
+@N: FX493 |Applying initial value "0" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\hdl\spi_master_for_mcp3204.vhd":127:8:127:9|Found counter in view:work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl) instance bit_cnt[4:0] 
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\hdl\spi_master_for_mcp3204.vhd":127:8:127:9|Found counter in view:work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl) instance clk_div_cnt[5:0] 
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1968:6:1968:11|Found counter in view:work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1(verilog) instance genblk2\.rdbeat_cnt[8:0] 
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1636:8:1636:13|Found counter in view:work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1(verilog) instance genblk2\.genblk2\.ram_rdreq_cntr[8:0] 
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk2\.genblk2\.ren_sc8 (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1(verilog))
+
+Finished area decomp  (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 299MB peak: 308MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 291MB peak: 308MB)
+
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.Top(rtl)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:15s; Memory used current: 293MB peak: 308MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 295MB peak: 308MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 295MB peak: 308MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 295MB peak: 308MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:18s; Memory used current: 295MB peak: 308MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 296MB peak: 308MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:20s; Memory used current: 299MB peak: 308MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:20s		     1.74ns		 512 /       630
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 300MB peak: 308MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:22s; Memory used current: 301MB peak: 308MB)
+
+
+End compile point sub-process log
+
+Writing compile point status file C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\Top\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name     Status       Reason        
+------------------------------------
+Top      Remapped     Design changed
+====================================
+
+Process took 0h:00m:24s realtime, 0h:00m:23s cputime
+# Tue Jun 23 16:59:11 2026
+
+###########################################################]

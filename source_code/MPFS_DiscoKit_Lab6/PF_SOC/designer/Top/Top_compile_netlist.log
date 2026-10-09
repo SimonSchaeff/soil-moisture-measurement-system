@@ -1,0 +1,31 @@
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_CCC_C0_0/PF_CCC_C1_0/clkint_0:A'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:CRN_INT' instance type before pin 'PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0:REF_CLK_0'.
+Info: [127205813]:  CMPPF_149: Added 'ADLIB:ICB_CLKINT' instance type before pin 'PF_OSC_C0_0/PF_OSC_C0_0/I_OSC_160_INT:A'.
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     1 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    1283   0      0      'PF_CCC_C0_0/PF_CCC_C1_0/clkint_0' 
+    0      0      1      'PF_OSC_C0_0/PF_OSC_C0_0/I_OSC_160_INT' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      900    0      'COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/arst_aclk_sync/sysReset_RNI0DTR' 
+
+Info: Demotion information: 
+Info: [127205381]:  CMPPF_302: Added 0 row global instances.
+Info: [127205382]:  CMPPF_303: Deleted 0 global instances.
+
+===============================================================================.
+
+Info: read partition file C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/designer/Top/Top.nmatinit.pdc.
+INFO: Reading Partition file C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/designer/Top/Top.nmatinit.pdc. 0 error(s) and 0 warning(s)

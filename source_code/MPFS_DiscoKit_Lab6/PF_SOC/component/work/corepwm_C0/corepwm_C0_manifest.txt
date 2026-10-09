@@ -1,0 +1,24 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Thu Apr  9 17:12:29 2026
+Project   :  D:\DiscoKit\Libero\MPFS_DiscoKit_Lab1\PF_SOC
+Component :  corepwm_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/reg_if.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/tach_if.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/pwm_gen.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/timebase.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/corepwm.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/components.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/core/t_corepwm_pkg.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/work/corepwm_C0/corepwm_C0.vhd
+
+Stimulus files for all Simulation tools:
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/mti/scripts/wave_usertb_vhdl.do
+
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/coreparameters.vhd
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/Actel/DirectCore/corepwm/4.5.100/rtl/vhdl/test/user/tb_user_corepwm.vhd
+

@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Thu Apr  9 14:52:22 2026
+Project   :  D:\DiscoKit\Libero\MPFS_DiscoKit_Lab1\PF_SOC
+Component :  PF_CCC_C1
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/work/PF_CCC_C1/PF_CCC_C1_0/PF_CCC_C1_PF_CCC_C1_0_PF_CCC.v
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/work/PF_CCC_C1/PF_CCC_C1.v
+
+Constraint files:
+    D:/DiscoKit/Libero/MPFS_DiscoKit_Lab1/PF_SOC/component/work/PF_CCC_C1\PF_CCC_C1_0\PF_CCC_C1_PF_CCC_C1_0_PF_CCC.sdc

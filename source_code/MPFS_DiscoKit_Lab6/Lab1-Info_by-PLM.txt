@@ -1,0 +1,3 @@
+DiscoKit_Lab is based on Microchip University course (setting up MPFS Discovery Kit Application from Scratch; applying bare-metal mpfs-timer-example)
+
+DiscoKit_Lab1 is copied from "_Lab" and includes HW for CorePWM

@@ -1,0 +1,33 @@
+@P:  Worst Slack : 2.263
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 - Estimated Frequency : 190.5 MHz
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 - Requested Frequency : 133.1 MHz
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 - Estimated Period : 5.249
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 - Requested Period : 7.512
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 - Slack : 2.263
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 - Estimated Frequency : NA
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 - Requested Frequency : 10.7 MHz
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 - Estimated Period : NA
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 - Requested Period : 93.897
+@P:  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 - Slack : NA
+@P:  REFCLK - Estimated Frequency : NA
+@P:  REFCLK - Requested Frequency : 125.0 MHz
+@P:  REFCLK - Estimated Period : NA
+@P:  REFCLK - Requested Period : 8.000
+@P:  REFCLK - Slack : NA
+@P:  osc_rc160mhz - Estimated Frequency : NA
+@P:  osc_rc160mhz - Requested Frequency : 170.4 MHz
+@P:  osc_rc160mhz - Estimated Period : NA
+@P:  osc_rc160mhz - Requested Period : 5.869
+@P:  osc_rc160mhz - Slack : NA
+@P:  System - Estimated Frequency : 261.4 MHz
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : 3.825
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 6.175
+@P: Top Part : mpfs095tfcvg784-1
+@P: Top Register bits  : 1271 
+@P: Top DSP Blocks  : 0
+@P: Top I/O primitives : 12
+@P: Top RAM1K20 :  4
+@P: Top RAM64x12 :  2
+@P:  CPU Time : 0h:00m:12s

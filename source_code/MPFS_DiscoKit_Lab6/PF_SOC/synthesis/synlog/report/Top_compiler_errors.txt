@@ -1,0 +1,3 @@
+@E: CG389 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v":610:50:610:68|Reference to undefined module PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM
+@E::Errors, while synthesis.
+

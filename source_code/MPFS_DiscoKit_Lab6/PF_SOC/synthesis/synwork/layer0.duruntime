@@ -1,0 +1,33 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: coreapb3_lib, Entity: COREAPB3_MUXPTOB3, Architecture: coreapb3_muxptob3_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: coreapb3_lib, Entity: CoreAPB3_32_0_1_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_32_6_27, Architecture: coreapb3_arch
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: CoreAPB3_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: coregpio_lib, Entity: CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_work_top_rtl_0layer0, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: CoreGPIO_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: SPI_Master_for_MCP3204_work_top_rtl_0layer0, Architecture: rtl
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Top, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: COREAXI4INTERCONNECT_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: CORERESET_PF_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: PF_CCC_C1, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: PF_OSC_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: PF_SRAM_AHBL_AXI_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: PFSOC_INIT_MONITOR_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: PFSOC_MSS_C0, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time

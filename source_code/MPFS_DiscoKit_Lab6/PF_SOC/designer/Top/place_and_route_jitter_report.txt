@@ -1,0 +1,55 @@
+Jitter Estimation Report
+========================
+
+Date           : Tue Jun 23 17:30:55 2026
+Libero version : 2025.2.0.14
+Design         : Top
+Family         : PolarFireSoC
+Die            : MPFS095T
+Speed grade    : -1
+Data state     : Production
+All jitter values are peak-to-peak
+
+
+System Jitter Calculation
+-------------------------
+
+Worst aggressor based on load:    PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0
+System jitter (worst aggressor):  0.004 ns
+
+
+Jitter Calculation per Clock Domain
+-----------------------------------
+
+Clock: REFCLK
+
+ (1) System jitter (worst aggressor):              0.004 ns
+ (2) Input jitter:                                 0.000 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.004 ns
+
+
+Clock: PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1
+
+ (1) System jitter (worst aggressor):              0.004 ns
+ (2) PLL jitter:                                   2.347 ns
+
+     Resulting clock jitter (max of (1) and (2)):  2.347 ns
+
+
+Clock: PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0
+
+ (1) System jitter (worst aggressor):              0.004 ns
+ (2) PLL jitter:                                   0.135 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.135 ns
+
+
+Clock: osc_rc160mhz
+
+ (1) System jitter (worst aggressor):              0.004 ns
+ (2) RC Oscillator jitter:                         0.600 ns
+
+     Resulting clock jitter (max of (1) and (2)):  0.600 ns
+
+

@@ -1,0 +1,500 @@
+# Tue Jun 23 16:58:41 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: WDESTO11433
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 188MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 205MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 191MB peak: 205MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 192MB peak: 205MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 194MB peak: 205MB)
+
+
+@N: MF104 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":21:7:21:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z4_layer1(verilog) 
+
+Synthesis running in Multiprocessing mode
+Maximum number of parallel jobs set to 4
+Multiprocessing started at : Tue Jun 23 16:58:43 2026
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+@N: MF107 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":21:7:21:26|Old database up-to-date, remapping Compile point view:work.COREAXI4INTERCONNECT_Z4_layer1(verilog) unnecessary 
+Mapping Top as a separate process
+MCP Status: 1 jobs running
+
+@N: MF106 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\top\top.vhd":17:7:17:9|Mapping Top level view:work.Top(rtl) because 
+		 RTL and/or Constraints changed.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 291MB peak: 308MB)
+
+@N: MO111 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram.v":166:30:166:38|Tristate driver FAULT_DET (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z1_layer1(verilog)) on net FAULT_DET (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z1_layer1(verilog)) has its enable tied to GND.
+@N: BZ173 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreapb3\4.2.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[15:14] (in view: work.Top(rtl)) mapped in logic.
+@N: BZ173 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreapb3\4.2.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[15:14] (in view: work.Top(rtl)) mapped in logic.
+@N: MO106 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreapb3\4.2.100\rtl\vhdl\core\coreapb3.vhd":648:12:648:15|Found ROM CoreAPB3_C0_0.CoreAPB3_C0_0.iPSELS_raw_5[15:14] (in view: work.Top(rtl)) with 1 words by 2 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:10s; Memory used current: 299MB peak: 308MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 299MB peak: 308MB)
+
+Encoding state machine state[0:3] (in view: work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\hdl\spi_master_for_mcp3204.vhd":127:8:127:9|There are no possible illegal states for state machine state[0:3] (in view: work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl)); safe FSM implementation is not required.
+@N: FX493 |Applying initial value "0" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\hdl\spi_master_for_mcp3204.vhd":127:8:127:9|Found counter in view:work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl) instance bit_cnt[4:0] 
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\hdl\spi_master_for_mcp3204.vhd":127:8:127:9|Found counter in view:work.SPI_Master_for_MCP3204_work_top_rtl_0layer0(rtl) instance clk_div_cnt[5:0] 
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1968:6:1968:11|Found counter in view:work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1(verilog) instance genblk2\.rdbeat_cnt[8:0] 
+@N: MO231 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":1636:8:1636:13|Found counter in view:work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1(verilog) instance genblk2\.genblk2\.ram_rdreq_cntr[8:0] 
+@N: MF179 :|Found 9 by 9 bit equality operator ('==') genblk2\.genblk2\.ren_sc8 (in view: work.PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1(verilog))
+
+Finished area decomp  (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 299MB peak: 308MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:15s; Memory used current: 291MB peak: 308MB)
+
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[0] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[1] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[2] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[3] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[4] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[5] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[6] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[7] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[8] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[9] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[10] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[11] (in view: work.Top(rtl)) because it does not drive other instances.
+@N: BN362 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_sram_ahbl_axi_c0\coreaxi4sram_0\rtl\vlog\core\coreaxi4sram_mainctrl.v":628:6:628:11|Removing sequential instance PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk1\.waddr_aligned_load_r[12] (in view: work.Top(rtl)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:15s; Memory used current: 293MB peak: 308MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:17s; Memory used current: 295MB peak: 308MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 295MB peak: 308MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 295MB peak: 308MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:18s; Memory used current: 295MB peak: 308MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:20s; CPU Time elapsed 0h:00m:19s; Memory used current: 296MB peak: 308MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:21s; CPU Time elapsed 0h:00m:20s; Memory used current: 299MB peak: 308MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:20s		     1.74ns		 512 /       630
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:22s; Memory used current: 300MB peak: 308MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:22s; Memory used current: 301MB peak: 308MB)
+
+
+Finished mapping Top
+Multiprocessing finished at : Tue Jun 23 16:59:11 2026
+Multiprocessing took 0h:00m:27s realtime, 0h:00m:02s cputime
+
+Summary of Compile Points :
+*************************** 
+Name                               Status        Reason             Start Time                   End Time                     Realtime       CPU Time       Fast Synthesis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_Z4_layer1     Unchanged     -                  Wed Apr 22 09:43:00 2026     Wed Apr 22 09:43:36 2026     0h:00m:35s     0h:00m:35s     No            
+Top                                Remapped      Design changed     Tue Jun 23 16:58:47 2026     Tue Jun 23 16:59:10 2026     0h:00m:23s     0h:00m:23s     No            
+==========================================================================================================================================================================
+Total number of compile points: 2
+===================================
+
+Links to Compile point Reports:
+******************************
+@L: "C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\Top\Top.srr"
+@L: "C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\COREAXI4INTERCONNECT_Z4_layer1\COREAXI4INTERCONNECT_Z4_layer1.srr"
+
+==============================
+
+
+Start loading CP mapped netlist (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:04s; Memory used current: 373MB peak: 374MB)
+
+
+Finished loading CP mapped netlist (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:05s; Memory used current: 374MB peak: 374MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:05s; Memory used current: 375MB peak: 375MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:05s; Memory used current: 375MB peak: 376MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:06s; Memory used current: 216MB peak: 376MB)
+
+Writing Analyst data base C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\synwork\Top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:07s; Memory used current: 276MB peak: 376MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:10s; Memory used current: 277MB peak: 376MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:36s; CPU Time elapsed 0h:00m:10s; Memory used current: 277MB peak: 376MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:11s; Memory used current: 282MB peak: 376MB)
+
+@W: MT246 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_osc_c0\pf_osc_c0_0\pf_osc_c0_pf_osc_c0_0_pf_osc.v":13:17:13:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pfsoc_init_monitor_c0\pfsoc_init_monitor_c0_0\pfsoc_init_monitor_c0_pfsoc_init_monitor_c0_0_pfsoc_init_monitor.v":42:53:42:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock osc_rc160mhz with period 5.87ns 
+@N: MT615 |Found clock REFCLK with period 8.00ns 
+@N: MT615 |Found clock PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 with period 7.51ns 
+@N: MT615 |Found clock PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 with period 93.90ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jun 23 16:59:19 2026
+#
+
+
+Top view:               Top
+Requested Frequency:    10.7 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.263
+
+                                            Requested     Estimated     Requested     Estimated               Clock                             Clock           
+Starting Clock                              Frequency     Frequency     Period        Period        Slack     Type                              Group           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     133.1 MHz     190.5 MHz     7.512         5.249         2.263     generated (from osc_rc160mhz)     default_clkgroup
+PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1     10.7 MHz      NA            93.897        NA            NA        generated (from osc_rc160mhz)     default_clkgroup
+REFCLK                                      125.0 MHz     NA            8.000         NA            NA        declared                          default_clkgroup
+osc_rc160mhz                                170.4 MHz     NA            5.869         NA            NA        declared                          default_clkgroup
+System                                      100.0 MHz     261.4 MHz     10.000        3.825         6.175     system                            system_clkgroup 
+================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                   PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0  |  7.512       6.175  |  No paths    -      |  No paths    -      |  No paths    -    
+PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0  |  7.512       2.263  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                     Starting                                                                                                               Arrival          
+Instance                                                                                             Reference                                   Type        Pin                      Net                                   Time        Slack
+                                                                                                     Clock                                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PFSOC_MSS_C0_0.I_MSS                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS         FIC_3_APB_M_PADDR[6]     CoreAPB3_C0_0_APBmslave4_PADDR[6]     1.040       2.263
+PFSOC_MSS_C0_0.I_MSS                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS         FIC_3_APB_M_PADDR[3]     CoreAPB3_C0_0_APBmslave4_PADDR[3]     0.915       2.287
+PFSOC_MSS_C0_0.I_MSS                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS         FIC_3_APB_M_PADDR[7]     CoreAPB3_C0_0_APBmslave4_PADDR[7]     1.008       2.343
+PFSOC_MSS_C0_0.I_MSS                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS         FIC_3_APB_M_PADDR[2]     CoreAPB3_C0_0_APBmslave4_PADDR[2]     0.925       2.386
+PFSOC_MSS_C0_0.I_MSS                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS         FIC_3_APB_M_PADDR[5]     CoreAPB3_C0_0_APBmslave4_PADDR[5]     0.917       2.699
+PFSOC_MSS_C0_0.I_MSS                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS         FIC_3_APB_M_PADDR[4]     CoreAPB3_C0_0_APBmslave4_PADDR[4]     0.930       2.722
+PF_SRAM_AHBL_AXI_C0_0.PF_TPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     RAM1K20     A_DOUT[0]                Z\\R_DATA_TEMPR1\[20\]                3.023       2.774
+PF_SRAM_AHBL_AXI_C0_0.PF_TPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     RAM1K20     A_DOUT[1]                Z\\R_DATA_TEMPR1\[21\]                3.023       2.774
+PF_SRAM_AHBL_AXI_C0_0.PF_TPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     RAM1K20     A_DOUT[2]                Z\\R_DATA_TEMPR1\[22\]                3.023       2.774
+PF_SRAM_AHBL_AXI_C0_0.PF_TPSRAM_AHB_AXI_0.PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM_R1C0     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     RAM1K20     A_DOUT[3]                Z\\R_DATA_TEMPR1\[23\]                3.023       2.774
+=============================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                                                                                          Required          
+Instance                 Reference                                   Type     Pin                        Net                                               Time         Slack
+                         Clock                                                                                                                                               
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[11]     PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[11]     6.687        2.263
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[5]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[5]      6.748        2.324
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[7]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[7]      6.791        2.367
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[6]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[6]      6.797        2.373
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[10]     PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[10]     6.805        2.381
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[2]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[2]      6.639        2.485
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[9]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[9]      6.919        2.495
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[8]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[8]      6.668        2.514
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[3]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[3]      6.670        2.516
+PFSOC_MSS_C0_0.I_MSS     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_3_APB_M_PRDATA[4]      PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[4]      6.678        2.524
+=============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.512
+    - Setup time:                            0.825
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.687
+
+    - Propagation time:                      4.424
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.263
+
+    Number of logic level(s):                4
+    Starting point:                          PFSOC_MSS_C0_0.I_MSS / FIC_3_APB_M_PADDR[6]
+    Ending point:                            PFSOC_MSS_C0_0.I_MSS / FIC_3_APB_M_PRDATA[11]
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.756 period=7.512) on pin FIC_3_PCLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.756 period=7.512) on pin FIC_3_PCLK
+
+Instance / Net                                                               Pin                        Pin               Arrival     No. of    
+Name                                                                Type     Name                       Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------
+PFSOC_MSS_C0_0.I_MSS                                                MSS      FIC_3_APB_M_PADDR[6]       Out     1.040     1.040 f     -         
+CoreAPB3_C0_0_APBmslave4_PADDR[6]                                   Net      -                          -       0.118     -           1         
+CoreGPIO_C0_0.CoreGPIO_C0_0.RDATA_32\.un3_prdata_o_0_a2_0_3         CFG4     C                          In      -         1.158 f     -         
+CoreGPIO_C0_0.CoreGPIO_C0_0.RDATA_32\.un3_prdata_o_0_a2_0_3         CFG4     Y                          Out     0.130     1.288 r     -         
+un3_prdata_o_0_a2_0_3                                               Net      -                          -       0.547     -           3         
+CoreGPIO_C0_0.CoreGPIO_C0_0.GEN_BITS\.0\.APB_32\.un17_psel_0_a2     CFG4     C                          In      -         1.835 r     -         
+CoreGPIO_C0_0.CoreGPIO_C0_0.GEN_BITS\.0\.APB_32\.un17_psel_0_a2     CFG4     Y                          Out     0.148     1.983 r     -         
+un17_psel                                                           Net      -                          -       0.764     -           21        
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PRDATA_1[6]               CFG3     A                          In      -         2.748 r     -         
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PRDATA_1[6]               CFG3     Y                          Out     0.051     2.798 r     -         
+PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA_1[6]                      Net      -                          -       0.594     -           6         
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PRDATA[11]                CFG4     B                          In      -         3.393 r     -         
+CoreAPB3_C0_0.CoreAPB3_C0_0.u_mux_p_to_b3.PRDATA[11]                CFG4     Y                          Out     0.083     3.476 r     -         
+PFSOC_MSS_C0_0_FIC_3_APB_INITIATOR_PRDATA[11]                       Net      -                          -       0.948     -           1         
+PFSOC_MSS_C0_0.I_MSS                                                MSS      FIC_3_APB_M_PRDATA[11]     In      -         4.424 r     -         
+================================================================================================================================================
+Total path delay (propagation time + setup) of 5.249 is 2.277(43.4%) logic and 2.972(56.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                            Starting                                                                                  Arrival          
+Instance                                                    Reference     Type       Pin               Net                                            Time        Slack
+                                                            Clock                                                                                                      
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PFSOC_INIT_MONITOR_C0_0.PFSOC_INIT_MONITOR_C0_0.I_BEN_0     System        BANKEN     BANK_EN           PFSOC_INIT_MONITOR_C0_0_BANK_0_VDDI_STATUS     0.000       6.175
+PFSOC_INIT_MONITOR_C0_0.PFSOC_INIT_MONITOR_C0_0.I_INIT      System        INIT       UIC_INIT_DONE     PFSOC_INIT_MONITOR_C0_0_DEVICE_INIT_DONE       0.000       6.243
+=======================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                 Starting                                           Required          
+Instance                                         Reference     Type     Pin     Net                 Time         Slack
+                                                 Clock                                                                
+----------------------------------------------------------------------------------------------------------------------
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_0[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_1[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_2[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_3[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_4[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_5[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_6[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_7[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_8[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_9[0]     System        SLE      ALn     un1_EXT_RST_N_2     7.492        6.175
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.512
+    - Setup time:                            0.020
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.492
+
+    - Propagation time:                      1.317
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 6.175
+
+    Number of logic level(s):                1
+    Starting point:                          PFSOC_INIT_MONITOR_C0_0.PFSOC_INIT_MONITOR_C0_0.I_BEN_0 / BANK_EN
+    Ending point:                            CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_0[0] / ALn
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.756 period=7.512) on pin CLK
+
+Instance / Net                                                         Pin         Pin               Arrival     No. of    
+Name                                                        Type       Name        Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------
+PFSOC_INIT_MONITOR_C0_0.PFSOC_INIT_MONITOR_C0_0.I_BEN_0     BANKEN     BANK_EN     Out     0.000     0.000 f     -         
+PFSOC_INIT_MONITOR_C0_0_BANK_0_VDDI_STATUS                  Net        -           -       0.118     -           1         
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.un1_EXT_RST_N_2         CFG4       C           In      -         0.118 f     -         
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.un1_EXT_RST_N_2         CFG4       Y           Out     0.145     0.264 f     -         
+un1_EXT_RST_N_2                                             Net        -           -       1.054     -           16        
+CORERESET_PF_C0_0.CORERESET_PF_C0_0.dff_0[0]                SLE        ALn         In      -         1.317 f     -         
+===========================================================================================================================
+Total path delay (propagation time + setup) of 1.337 is 0.165(12.4%) logic and 1.172(87.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:12s; Memory used current: 283MB peak: 376MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:37s; CPU Time elapsed 0h:00m:12s; Memory used current: 283MB peak: 376MB)
+
+---------------------------------------
+Resource Usage Report for Top 
+
+Mapping to part: mpfs095tfcvg784-1
+Cell usage:
+BANKEN          1 use
+CLKINT          3 uses
+INIT            1 use
+MSS             1 use
+OR2             64 uses
+OR4             2 uses
+OSC_RC160MHZ    1 use
+PLL             1 use
+CFG1           3 uses
+CFG2           69 uses
+CFG3           664 uses
+CFG4           159 uses
+
+Carry cells:
+ARI1            78 uses - used for arithmetic functions
+ARI1            6 uses - used for Wide-Mux implementation
+Total ARI1      84 uses
+
+
+Sequential Cells: 
+SLE            1271 uses
+
+DSP Blocks:    0 of 292 (0%)
+
+I/O ports: 13
+I/O primitives: 12
+INBUF          5 uses
+INBUF_DIFF     1 use
+OUTBUF         6 uses
+
+
+Global Clock Buffers: 3
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K20) : 4 of 308 (1%)
+Total Block RAMs (RAM64x12) : 2 of 876 (0%)
+
+Total LUTs:    979
+
+Extra resources required for RAM and MACC_PA interface logic during P&R:
+
+RAM64X12 Interface Logic : SLEs = 24; LUTs = 24;
+RAM1K20  Interface Logic : SLEs = 144; LUTs = 144;
+MACC_PA     Interface Logic : SLEs = 0; LUTs = 0;
+MACC_PA_BC_ROM     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1271 + 24 + 144 + 0 = 1439;
+Total number of LUTs after P&R:  979 + 24 + 144 + 0 = 1147;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:38s; CPU Time elapsed 0h:00m:12s; Memory used current: 136MB peak: 376MB)
+
+Process took 0h:00m:38s realtime, 0h:00m:12s cputime
+# Tue Jun 23 16:59:20 2026
+
+###########################################################]

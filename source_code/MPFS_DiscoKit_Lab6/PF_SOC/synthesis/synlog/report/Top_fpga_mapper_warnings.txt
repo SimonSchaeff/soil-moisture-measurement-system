@@ -1,0 +1,4 @@
+**** Begin Compile Point : Top ****
+**** End Compile Point : Top ****
+@W: MT246 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pf_osc_c0\pf_osc_c0_0\pf_osc_c0_pf_osc_c0_0_pf_osc.v":13:17:13:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT246 :"c:\daten\eres-project\source_code\mpfs_discokit_lab6\pf_soc\component\work\pfsoc_init_monitor_c0\pfsoc_init_monitor_c0_0\pfsoc_init_monitor_c0_pfsoc_init_monitor_c0_0_pfsoc_init_monitor.v":42:53:42:58|Blackbox INIT is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)

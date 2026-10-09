@@ -1,0 +1,15 @@
+Software Version: 2025.2.0.14
+Opened 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\Top_fp\Top.pro'
+PDB file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\Top.pdb' has been loaded successfully.
+DESIGN : Top;  CHECKSUM : EE2A;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+Info: Design version: 0
+File/Folder 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\Top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\Top.ppd'; file programs Fabric and sNVM.
+Fabric component bitstream digest: ce39e1a2b1d24ace7dc80dff6f00f7565c3c02c2a47fffa3e8ddfe5b99d0a792
+sNVM component bitstream digest: b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+Entire bitstream digest: 1e52612d6facaf963eabeb234986a5a338c87a7c6006a794db0ef712a63b6aaa
+Finished: Tue Jun 23 17:40:37 2026 (Elapsed time 00:01:16)
+
+Project saved.
+Project closed.

@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Thu Jan  8 17:43:58 2026
+Project   :  C:\Users\M79113\Desktop\PolarFire_SoC\Discovery_kit\Libero\PF_SOC
+Component :  CORERESET_PF_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/work/CORERESET_PF_C0/CORERESET_PF_C0_0/core/corereset_pf.v
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/work/CORERESET_PF_C0/CORERESET_PF_C0.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/work/CORERESET_PF_C0/CORERESET_PF_C0_0/test/corereset_pf_tb.v
+

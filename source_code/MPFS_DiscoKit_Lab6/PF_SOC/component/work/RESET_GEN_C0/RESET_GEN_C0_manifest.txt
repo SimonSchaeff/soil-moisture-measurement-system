@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Tue Jan 13 20:11:17 2026
+Project   :  C:\Users\M79113\Desktop\PolarFire_SoC\Discovery_kit\Libero\PF_SOC
+Component :  RESET_GEN_C0
+Family    :  PolarFireSoC
+
+
+Stimulus files for all Simulation tools:
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.v
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/work/RESET_GEN_C0/RESET_GEN_C0.v
+

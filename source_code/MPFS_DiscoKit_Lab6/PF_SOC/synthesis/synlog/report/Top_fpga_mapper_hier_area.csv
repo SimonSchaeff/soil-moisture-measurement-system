@@ -1,0 +1,49 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC_PA, RAM1K20, RAM64X12, GLOBAL, IO
+. Top, 1271, 895, 84, 0, 0, 4, 2, 3, 12
+.	. COREAXI4INTERCONNECT_C0, 902, 554, 0, 0, 0, 0, 2, 1, 0
+.	.	. COREAXI4INTERCONNECT_Z4_layer1, 902, 554, 0, 0, 0, 0, 2, 1, 0
+.	.	.	. caxi4interconnect_MasterConvertor_Z7_layer1, 434, 232, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_32s_64s_0s_1s, 434, 232, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_11s_0_1_3_2, 18, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_71s_0_1_3_0, 66, 36, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_71s_0_1_3_1, 54, 30, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_76s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_82s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. caxi4interconnect_ResetSycnc, 2, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. caxi4interconnect_SlaveConvertor_Z11_layer1, 466, 322, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	. caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s, 434, 232, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_12s_0_1_3_2, 18, 12, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_72s_0_1_3_0, 66, 36, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_72s_0_1_3_1, 54, 30, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_77s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	. caxi4interconnect_RegSliceFull_83s_0_1_3_2, 148, 77, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. caxi4interconnect_SlvProtocolConverter_Z9_layer1, 32, 90, 0, 0, 0, 0, 2, 0, 0
+.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_9s_4s_0_0, 16, 45, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_FIFO_16s_9s_9s_15s_0s_16s_4s_0s_15s_1_0, 16, 39, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_0s_4s_16s_0s_1_0, 16, 39, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_9s_0s_0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_9s_4s_0_1, 16, 45, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. caxi4interconnect_FIFO_16s_9s_9s_15s_0s_16s_4s_0s_15s_1, 16, 39, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_FIFO_CTRL_16s_15s_0s_4s_16s_0s_1, 16, 39, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	.	.	.	. caxi4interconnect_RAM_BLOCK_16s_4s_9s_0s, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	. CORERESET_PF_C0, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF, 16, 1, 0, 0, 0, 0, 0, 0, 0
+.	. CoreAPB3_C0, 0, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreAPB3_32_0_1_0_0_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_32_6_27, 0, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 15, 0, 0, 0, 0, 0, 0, 0
+.	. CoreGPIO_C0, 54, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_work_top_rtl_0layer0, 54, 16, 0, 0, 0, 0, 0, 0, 0
+.	. PFSOC_INIT_MONITOR_C0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PFSOC_INIT_MONITOR_C0_PFSOC_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	. PFSOC_MSS_C0, 0, 0, 0, 0, 0, 0, 0, 0, 5
+.	. PF_CCC_C1, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. PF_CCC_C1_PF_CCC_C1_0_PF_CCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. PF_OSC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. PF_OSC_C0_PF_OSC_C0_0_PF_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. PF_SRAM_AHBL_AXI_C0, 241, 262, 60, 0, 0, 4, 0, 0, 0
+.	.	. PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z1_layer1, 241, 260, 60, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1, 231, 260, 60, 0, 0, 0, 0, 0, 0
+.	.	.	. PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_9s_0s, 10, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM, 0, 2, 0, 0, 0, 4, 0, 0, 0
+.	. SPI_Master_for_MCP3204_work_top_rtl_0layer0, 58, 46, 24, 0, 0, 0, 0, 0, 0

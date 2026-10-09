@@ -1,0 +1,19 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Thu Apr 16 16:55:52 2026
+Project   :  D:\NM\MPFS_DiscoKit_Lab5\PF_SOC
+Component :  PF_SRAM_AHBL_AXI_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_RT.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_MAINCTRL_ECC_RT.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/COREAXI4SRAM_0/rtl/vlog/core/CoreAXI4SRAM_SLVIF.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/PF_TPSRAM_AHB_AXI_0/PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v
+    D:/NM/MPFS_DiscoKit_Lab5/PF_SOC/component/work/PF_SRAM_AHBL_AXI_C0/PF_SRAM_AHBL_AXI_C0.v
+

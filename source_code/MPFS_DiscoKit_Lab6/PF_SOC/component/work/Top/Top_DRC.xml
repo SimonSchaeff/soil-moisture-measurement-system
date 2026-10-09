@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>Top</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin PFSOC_MSS_C0_0:GPIO_2_F2M_13</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_F2M_13</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin PFSOC_MSS_C0_0:GPIO_2_F2M_12</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_F2M_12</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin PFSOC_MSS_C0_0:GPIO_2_F2M_11</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_F2M_11</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin PFSOC_MSS_C0_0:GPIO_2_F2M_10</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_F2M_10</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin PFSOC_MSS_C0_0:GPIO_2_M2F_19</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_M2F_19</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin PFSOC_MSS_C0_0:GPIO_2_M2F_18</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_M2F_18</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin PFSOC_MSS_C0_0:GPIO_2_M2F_17</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_M2F_17</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin PFSOC_MSS_C0_0:GPIO_2_M2F_16</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/Top/pins/PFSOC_MSS_C0_0:GPIO_2_M2F_16</crossprobe>
+  </drc>
+</drcreport>

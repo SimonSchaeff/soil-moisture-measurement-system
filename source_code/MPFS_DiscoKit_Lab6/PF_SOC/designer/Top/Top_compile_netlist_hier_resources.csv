@@ -1,0 +1,35 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,Differential I/O Pairs,uSRAM (64x12),LSRAM (20K),Chip Globals,PLL
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk1.awrs/Primitives,30,54,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk2.arrs/Primitives,36,66,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/Primitives,77,148,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/Primitives,77,148,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk5.brs/Primitives,12,18,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk1.awrs/Primitives,30,54,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk2.arrs/Primitives,36,66,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/Primitives,77,148,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk4.wrs/Primitives,77,148,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk5.brs/Primitives,12,18,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_SlvAxi4ReadID/Primitives,6,0,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_SlvAxi4ReadID/genblk1.rdata_interleave_fifo/fifo_ctrl_inst/Primitives,39,16,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_SlvAxi4ReadID/genblk1.rdata_interleave_fifo/genblk1[0].ram/mem_mem_0_0/Primitives,0,0,12,12,0,0,1,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_SlvAxi4WriteID/Primitives,6,0,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_SlvAxi4WriteID/genblk1.rdata_interleave_fifo/fifo_ctrl_inst/Primitives,39,16,0,0,0,0,0,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/slvProtConv/genblk1.u_SlvAxi4WriteID/genblk1.rdata_interleave_fifo/genblk1[0].ram/mem_mem_0_0/Primitives,0,0,12,12,0,0,1,0,0,0
+COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/arst_aclk_sync/Primitives,0,2,0,0,0,0,0,0,1,0
+CORERESET_PF_C0_0/CORERESET_PF_C0_0/Primitives,1,16,0,0,0,0,0,0,0,0
+CoreAPB3_C0_0/CoreAPB3_C0_0/Primitives,1,0,0,0,0,0,0,0,0,0
+CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/Primitives,15,0,0,0,0,0,0,0,0,0
+CoreGPIO_C0_0/CoreGPIO_C0_0/Primitives,16,54,0,0,0,0,0,0,0,0
+PFSOC_MSS_C0_0/MSSIO15_IN_IOINST/Primitives,0,0,0,0,1,0,0,0,0,0
+PFSOC_MSS_C0_0/MSSIO16_OUT_IOINST/Primitives,0,0,0,0,1,0,0,0,0,0
+PFSOC_MSS_C0_0/MSSIO19_IN_IOINST/Primitives,0,0,0,0,1,0,0,0,0,0
+PFSOC_MSS_C0_0/MSSIO20_OUT_IOINST/Primitives,0,0,0,0,1,0,0,0,0,0
+PFSOC_MSS_C0_0/Primitives,0,0,0,0,0,1,0,0,0,0
+PF_CCC_C0_0/PF_CCC_C1_0/Primitives,0,0,0,0,0,0,0,0,1,1
+PF_OSC_C0_0/PF_OSC_C0_0/Primitives,0,0,0,0,0,0,0,0,1,0
+PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF/Primitives,0,10,0,0,0,0,0,0,0,0
+PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/Primitives,321,231,0,0,0,0,0,0,0,0
+PF_SRAM_AHBL_AXI_C0_0/PF_TPSRAM_AHB_AXI_0/Primitives,68,0,144,144,0,0,0,4,0,0
+Primitives/Primitives,0,0,0,0,7,0,0,0,0,0
+SPI_Master_for_MCP3204_0/Primitives,69,58,0,0,0,0,0,0,0,0

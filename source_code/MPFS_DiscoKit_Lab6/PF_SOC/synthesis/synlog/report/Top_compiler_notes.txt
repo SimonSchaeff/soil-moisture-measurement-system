@@ -1,0 +1,296 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\Top\Top.vhd":17:7:17:9|Top entity is set to Top.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\Top\Top.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N:"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\Top\Top.vhd":17:7:17:9|Top entity is set to Top.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\Top\Top.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\Top\Top.vhd":17:7:17:9|Synthesizing work.top.rtl.
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd":71:7:71:28|Synthesizing work.spi_master_for_mcp3204.rtl.
+@N: CD233 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd":99:17:99:18|Using sequential encoding for type t_state.
+@N: CD604 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd":244:16:244:29|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd":162:7:162:17|Synthesizing work.coregpio_c0.rtl.
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":29:7:29:40|Synthesizing coregpio_lib.coregpio_c0_coregpio_c0_0_coregpio.rtl.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":568:16:568:23|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":668:18:668:26|Removing redundant assignment.
+@N: CD364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":671:14:671:22|Removing redundant assignment.
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd":66:7:66:17|Synthesizing work.coreapb3_c0.rtl.
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@N: CD630 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":108:0:108:7|Input PRDATAS1 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":125:0:125:7|Input PREADYS1 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":142:0:142:8|Input PSLVERRS1 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd":442:8:442:9|Found sequential shift gpin3 with address depth of 3 words and data bit width of 1.
+@N: CL162 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd":127:8:127:9|Found a potential sequential shift shift_reg with address depth of 12 words and data bit width of 1.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd":127:8:127:9|Trying to extract state machine for register state.
+@N: CL162 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\hdl\SPI_Master_for_MCP3204.vhd":127:8:127:9|Found a potential sequential shift shift_reg with address depth of 12 words and data bit width of 1.
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":357:7:357:16|Synthesizing module INBUF_DIFF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":287:7:287:12|Synthesizing module OUTBUF in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PFSOC_MSS_C0\MSS_NOBYP_BYP_BYP_NOBYP_BYP_syn_comps.v":5:7:5:9|Synthesizing module MSS in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":504:7:504:9|Synthesizing module VCC in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":500:7:500:9|Synthesizing module GND in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":264:7:264:11|Synthesizing module INBUF in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PFSOC_MSS_C0\PFSOC_MSS_C0.v":5:7:5:18|Synthesizing module PFSOC_MSS_C0 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\syn_comps.v":1702:7:1702:10|Synthesizing module INIT in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\syn_comps.v":210:7:210:12|Synthesizing module BANKEN in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PFSOC_INIT_MONITOR_C0\PFSOC_INIT_MONITOR_C0_0\PFSOC_INIT_MONITOR_C0_PFSOC_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR.v":6:8:6:71|Synthesizing module PFSOC_INIT_MONITOR_C0_PFSOC_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PFSOC_INIT_MONITOR_C0\PFSOC_INIT_MONITOR_C0.v":71:7:71:27|Synthesizing module PFSOC_INIT_MONITOR_C0 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_SLVIF.v":26:7:26:59|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM.v":26:7:26:53|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":26:7:26:62|Synthesizing module PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL in library work.
+@N: CG179 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\COREAXI4SRAM_0\rtl\vlog\core\CoreAXI4SRAM_MAINCTRL.v":563:91:563:103|Removing redundant assignment.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":133:7:133:9|Synthesizing module OR2 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":108:7:108:10|Synthesizing module CFG1 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":578:7:578:13|Synthesizing module RAM1K20 in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":199:7:199:9|Synthesizing module OR4 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\PF_TPSRAM_AHB_AXI_0\PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM.v":5:7:5:55|Synthesizing module PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_SRAM_AHBL_AXI_C0\PF_SRAM_AHBL_AXI_C0.v":47:7:47:25|Synthesizing module PF_SRAM_AHBL_AXI_C0 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\syn_comps.v":2199:7:2199:18|Synthesizing module OSC_RC160MHZ in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro\lib\generic\acg5.v":489:7:489:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_OSC_C0\PF_OSC_C0_0\PF_OSC_C0_PF_OSC_C0_0_PF_OSC.v":5:7:5:34|Synthesizing module PF_OSC_C0_PF_OSC_C0_0_PF_OSC in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_OSC_C0\PF_OSC_C0.v":27:7:27:15|Synthesizing module PF_OSC_C0 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\syn_comps.v":3694:7:3694:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_CCC_C1\PF_CCC_C1_0\PF_CCC_C1_PF_CCC_C1_0_PF_CCC.v":5:7:5:34|Synthesizing module PF_CCC_C1_PF_CCC_C1_0_PF_CCC in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\PF_CCC_C1\PF_CCC_C1.v":264:7:264:15|Synthesizing module PF_CCC_C1 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CORERESET_PF_C0\CORERESET_PF_C0_0\core\corereset_pf.v":21:7:21:52|Synthesizing module CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CORERESET_PF_C0\CORERESET_PF_C0.v":21:7:21:21|Synthesizing module CORERESET_PF_C0 in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4CrossBar\ResetSycnc.v":21:7:21:34|Synthesizing module caxi4interconnect_ResetSycnc in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4CrossBar\Axi4CrossBar.v":21:7:21:36|Synthesizing module caxi4interconnect_Axi4CrossBar in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":21:7:21:26|Synthesizing module COREAXI4INTERCONNECT in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":21:7:21:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":22:7:22:41|Synthesizing module caxi4interconnect_MstrDataWidthConv in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":20:7:20:47|Synthesizing module caxi4interconnect_MstrClockDomainCrossing in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":21:7:21:39|Synthesizing module caxi4interconnect_MasterConvertor in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":22:7:22:45|Synthesizing module caxi4interconnect_MstrProtocolConverter in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegisterSlice.v":21:7:21:37|Synthesizing module caxi4interconnect_RegisterSlice in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":21:7:21:36|Synthesizing module caxi4interconnect_RegSliceFull in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":21:7:21:45|Synthesizing module caxi4interconnect_SlvDataWidthConverter in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v":21:7:21:44|Synthesizing module caxi4interconnect_SlvProtocolConverter in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":19:7:19:45|Synthesizing module caxi4interconnect_SlvAxi4ProtConvAXI4ID in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\FIFO_CTRL.v":23:7:23:33|Synthesizing module caxi4interconnect_FIFO_CTRL in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\FIFO.v":21:7:21:28|Synthesizing module caxi4interconnect_FIFO in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":23:7:23:33|Synthesizing module caxi4interconnect_RAM_BLOCK in library work.
+@N: CL134 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RAM_BLOCK.v":66:7:66:12|Found RAM mem, depth=16, width=9
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":20:7:20:46|Synthesizing module caxi4interconnect_SlvClockDomainCrossing in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v":21:7:21:38|Synthesizing module caxi4interconnect_SlaveConvertor in library work.
+@N: CG364 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\COREAXI4INTERCONNECT_C0\COREAXI4INTERCONNECT_C0.v":1476:7:1476:29|Synthesizing module COREAXI4INTERCONNECT_C0 in library work.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlaveConvertor.v":60:30:60:36|Input ARESETN is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":34:26:34:32|Input SLV_CLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":35:33:35:40|Input XBAR_CLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":36:25:36:32|Input sysReset is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvClockDomainCrossing.v":37:25:37:38|Input ACLK_syncReset is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvAxi4ProtConvAXI4ID.v":42:30:42:37|Input SLAVE_ID is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvProtocolConverter.v":90:33:90:44|Input int_slaveWID is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":51:26:51:29|Input ACLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\SlvDataWidthConverter.v":52:25:52:32|Input sysReset is unused.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":40:38:40:41|Input ACLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":41:37:41:44|Input sysReset is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrProtocolConverter.v":139:31:139:40|Input MASTER_WID is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":55:25:55:31|Input ARESETN is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":172:18:172:29|Input MASTER_HADDR is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":173:17:173:29|Input MASTER_HBURST is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":174:12:174:27|Input MASTER_HMASTLOCK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":175:17:175:28|Input MASTER_HPROT is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":176:17:176:28|Input MASTER_HSIZE is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":177:12:177:25|Input MASTER_HNONSEC is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":178:17:178:29|Input MASTER_HTRANS is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":179:35:179:47|Input MASTER_HWDATA is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":181:12:181:24|Input MASTER_HWRITE is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MasterConvertor.v":184:12:184:22|Input MASTER_HSEL is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":34:26:34:32|Input MST_CLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":35:33:35:40|Input XBAR_CLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":36:25:36:32|Input sysReset is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrClockDomainCrossing.v":37:25:37:38|Input ACLK_syncReset is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":43:26:43:29|Input ACLK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\MstrDataWidthConv.v":44:25:44:32|Input sysReset is unused.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL201 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\Axi4Convertors\RegSliceFull.v":183:1:183:6|Trying to extract state machine for register currState.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":29:2:29:7|Input M_CLK0 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":30:2:30:7|Input M_CLK1 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":31:2:31:7|Input M_CLK2 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":32:2:32:7|Input M_CLK3 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":33:2:33:7|Input M_CLK4 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":34:2:34:7|Input M_CLK5 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":35:2:35:7|Input M_CLK6 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":36:2:36:7|Input M_CLK7 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":37:2:37:7|Input M_CLK8 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":38:2:38:7|Input M_CLK9 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":39:2:39:8|Input M_CLK10 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":40:2:40:8|Input M_CLK11 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":41:2:41:8|Input M_CLK12 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":42:2:42:8|Input M_CLK13 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":43:2:43:8|Input M_CLK14 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":44:2:44:8|Input M_CLK15 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":46:2:46:7|Input S_CLK0 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":47:2:47:7|Input S_CLK1 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":48:2:48:7|Input S_CLK2 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":49:2:49:7|Input S_CLK3 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":50:2:50:7|Input S_CLK4 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":51:2:51:7|Input S_CLK5 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":52:2:52:7|Input S_CLK6 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":53:2:53:7|Input S_CLK7 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":56:2:56:7|Input S_CLK8 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":57:2:57:7|Input S_CLK9 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":58:2:58:8|Input S_CLK10 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":59:2:59:8|Input S_CLK11 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":60:2:60:8|Input S_CLK12 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":61:2:61:8|Input S_CLK13 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":62:2:62:8|Input S_CLK14 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":63:2:63:8|Input S_CLK15 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":64:2:64:8|Input S_CLK16 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":65:2:65:8|Input S_CLK17 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":66:2:66:8|Input S_CLK18 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":67:2:67:8|Input S_CLK19 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":68:2:68:8|Input S_CLK20 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":69:2:69:8|Input S_CLK21 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":70:2:70:8|Input S_CLK22 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":71:2:71:8|Input S_CLK23 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":72:2:72:8|Input S_CLK24 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":73:2:73:8|Input S_CLK25 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":74:2:74:8|Input S_CLK26 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":75:2:75:8|Input S_CLK27 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":76:2:76:8|Input S_CLK28 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":77:2:77:8|Input S_CLK29 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":78:2:78:8|Input S_CLK30 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":79:2:79:8|Input S_CLK31 is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":96:2:96:13|Input MASTER1_AWID is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":97:2:97:15|Input MASTER1_AWADDR is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":98:2:98:14|Input MASTER1_AWLEN is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":99:2:99:15|Input MASTER1_AWSIZE is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":100:2:100:16|Input MASTER1_AWBURST is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":101:2:101:15|Input MASTER1_AWLOCK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":102:2:102:16|Input MASTER1_AWCACHE is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":103:2:103:15|Input MASTER1_AWPROT is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":104:2:104:17|Input MASTER1_AWREGION is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":105:2:105:14|Input MASTER1_AWQOS is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":106:2:106:15|Input MASTER1_AWUSER is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":107:2:107:16|Input MASTER1_AWVALID is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":110:2:110:13|Input MASTER2_AWID is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":111:2:111:15|Input MASTER2_AWADDR is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":112:2:112:14|Input MASTER2_AWLEN is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":113:2:113:15|Input MASTER2_AWSIZE is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":114:2:114:16|Input MASTER2_AWBURST is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":115:2:115:15|Input MASTER2_AWLOCK is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":116:2:116:16|Input MASTER2_AWCACHE is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":117:2:117:15|Input MASTER2_AWPROT is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":118:2:118:17|Input MASTER2_AWREGION is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":119:2:119:14|Input MASTER2_AWQOS is unused.
+@N: CL159 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\Actel\DirectCore\COREAXI4INTERCONNECT\2.9.100\rtl\vlog\core\CoreAxi4Interconnect.v":120:2:120:15|Input MASTER2_AWUSER is unused.
+@N: CL135 :"C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\component\work\CORERESET_PF_C0\CORERESET_PF_C0_0\core\corereset_pf.v":58:0:58:5|Found sequential shift dff with address depth of 16 words and data bit width of 1.
+@N|Running in 64-bit mode
+

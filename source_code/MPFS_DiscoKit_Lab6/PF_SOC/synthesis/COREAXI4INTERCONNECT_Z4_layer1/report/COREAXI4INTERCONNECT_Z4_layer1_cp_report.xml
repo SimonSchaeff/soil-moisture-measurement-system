@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the information about all compile points from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="4" name="Compile Points Summary">
+<row>
+<data>Name</data>
+<data>Status</data>
+<data>Reason</data>
+</row>
+<row>
+<data>
+<value>COREAXI4INTERCONNECT_Z4_layer1</value>
+<report_link name="Report">
+<data>C:\Daten\Praktikum_Entwicklung_resilenter_Elektroniksysteme\2026-04-17_TestExam_1\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\COREAXI4INTERCONNECT_Z4_layer1\COREAXI4INTERCONNECT_Z4_layer1.srr</data>
+</report_link>
+</data>
+<data>Mapped</data>
+<data>No database</data>
+</row>
+</report_table>

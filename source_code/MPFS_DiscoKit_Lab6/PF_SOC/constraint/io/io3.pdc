@@ -1,0 +1,87 @@
+# Microchip I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: 2025.2 2025.2.0.14
+
+# Family: PolarFireSoC , Die: MPFS095T , Package: FCSG325
+
+# Date generated: Wed Jun 17 20:40:44 2026 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io -port_name EXT_RST_N  \
+    -pin_name T19            \
+    -fixed true              \
+    -DIRECTION INPUT
+
+
+set_io -port_name MMUART_0_RXD_F2M  \
+    -pin_name W21                   \
+    -fixed true                     \
+    -DIRECTION INPUT
+
+
+set_io -port_name MMUART_0_TXD_M2F  \
+    -pin_name Y21                   \
+    -fixed true                     \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name Mikrobus_Cs  \
+    -pin_name C16              \
+    -fixed true                \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name Mikrobus_Miso  \
+    -pin_name A18                \
+    -fixed true                  \
+    -DIRECTION INPUT
+
+
+set_io -port_name Mikrobus_Mosi  \
+    -pin_name E11                \
+    -fixed true                  \
+    -DIRECTION OUTPUT
+
+
+set_io -port_name Mikrobus_Sck  \
+    -pin_name E17               \
+    -fixed true                 \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+

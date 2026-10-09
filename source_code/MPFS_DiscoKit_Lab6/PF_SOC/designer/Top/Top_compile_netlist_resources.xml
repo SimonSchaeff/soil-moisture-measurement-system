@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Compile Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)</text>
+<text>Date: Tue Jun 23 16:59:58 2026
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>PolarFireSoC</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>MPFS095T</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>FCSG325</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.0V</cell>
+</row>
+<row>
+ <cell>Part Range</cell>
+ <cell>EXT</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 1.8V</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>Top</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\Top.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>1213</cell>
+ <cell>93516</cell>
+ <cell>1.30</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>1439</cell>
+ <cell>93516</cell>
+ <cell>1.54</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>7</cell>
+ <cell>80</cell>
+ <cell>8.75</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>7</cell>
+ <cell>80</cell>
+ <cell>8.75</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>40</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- I/Os using I/O Registers</cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>I/O Register Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>240</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Input  I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Output I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>-- Enable I/O Flip-Flops </cell>
+ <cell>0</cell>
+ <cell>80</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>uSRAM</cell>
+ <cell>2</cell>
+ <cell>876</cell>
+ <cell>0.23</cell>
+</row>
+<row>
+ <cell>LSRAM</cell>
+ <cell>4</cell>
+ <cell>308</cell>
+ <cell>1.30</cell>
+</row>
+<row>
+ <cell>Math</cell>
+ <cell>0</cell>
+ <cell>292</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>H-Chip Global</cell>
+ <cell>3</cell>
+ <cell>48</cell>
+ <cell>6.25</cell>
+</row>
+<row>
+ <cell>PLL</cell>
+ <cell>1</cell>
+ <cell>8</cell>
+ <cell>12.50</cell>
+</row>
+<row>
+ <cell>DLL</cell>
+ <cell>0</cell>
+ <cell>8</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>BANKEN</cell>
+ <cell>1</cell>
+ <cell>5</cell>
+ <cell>20.00</cell>
+</row>
+<row>
+ <cell>CRN_INT</cell>
+ <cell>1</cell>
+ <cell>24</cell>
+ <cell>4.17</cell>
+</row>
+<row>
+ <cell>INIT</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>OSC_RC160MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>Transceiver Lanes</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Transceiver PCIe</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>ICB_CLKINT</cell>
+ <cell>2</cell>
+ <cell>68</cell>
+ <cell>2.94</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>MSS I/O</cell>
+ <cell>6</cell>
+ <cell>102</cell>
+ <cell>5.88</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>1045</cell>
+ <cell>1271</cell>
+</row>
+<row>
+ <cell>uSRAM Interface Logic</cell>
+ <cell>24</cell>
+ <cell>24</cell>
+</row>
+<row>
+ <cell>LSRAM Interface Logic</cell>
+ <cell>144</cell>
+ <cell>144</cell>
+</row>
+<row>
+ <cell>Math Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>1213</cell>
+ <cell>1439</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>7</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>10</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>13</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>7</cell>
+</row>
+</table>
+<section><name>Detailed 4LUT Groups Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>3</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>3</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>4</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>1283</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_CCC_C0_0_OUT0_FABCLK_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_CCC_C0_0/PF_CCC_C1_0/clkint_0/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>900</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/sysReset_arst</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/arst_aclk_sync/sysReset_RNI0DTR/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>1</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_OSC_C0_0_RCOSC_160MHZ_GL</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_OSC_C0_0/PF_OSC_C0_0/I_OSC_160_INT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>356</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORERESET_PF_C0_0_CORERESET_PF_C0_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]</cell>
+</row>
+<row>
+ <cell>140</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/wen_sc_0_a2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc_0_a2</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/ren_sc_d1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.ren_sc_d1</cell>
+</row>
+<row>
+ <cell>80</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveWREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk4.wrs/currState[0]</cell>
+</row>
+<row>
+ <cell>80</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop_0__slvcnv_slaveRREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/currState[0]</cell>
+</row>
+<row>
+ <cell>79</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/sr_dwc_slaveRREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/currState[0]</cell>
+</row>
+<row>
+ <cell>78</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PFSOC_MSS_C0_0_FIC_0_AXI4_INITIATOR_WREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/currState[0]</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/N_65_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/currState_RNIF27LC[1]</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/holdDat25_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/holdDat25</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/holdDat15_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/holdDat15</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>356</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : CORERESET_PF_C0_0_CORERESET_PF_C0_0_dff</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: CORERESET_PF_C0_0/CORERESET_PF_C0_0/dff_15[0]</cell>
+</row>
+<row>
+ <cell>140</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/wen_sc_0_a2</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/wen_sc_0_a2</cell>
+</row>
+<row>
+ <cell>128</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/ren_sc_d1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: PF_SRAM_AHBL_AXI_C0_0/COREAXI4SRAM_0/genblk1.genblk1.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL/genblk2.ren_sc_d1</cell>
+</row>
+<row>
+ <cell>80</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/slaveWREADY[0]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk4.wrs/currState[0]</cell>
+</row>
+<row>
+ <cell>80</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop_0__slvcnv_slaveRREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/currState[0]</cell>
+</row>
+<row>
+ <cell>79</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/sr_dwc_slaveRREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/SlvConvertor_loop[0].slvcnv/rgsl/genblk3.rrs/currState[0]</cell>
+</row>
+<row>
+ <cell>78</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : PFSOC_MSS_C0_0_FIC_0_AXI4_INITIATOR_WREADY</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/currState[0]</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/N_65_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/currState_RNIF27LC[1]</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/holdDat25_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk4.wrs/holdDat25</cell>
+</row>
+<row>
+ <cell>73</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/holdDat15_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: COREAXI4INTERCONNECT_C0_0/COREAXI4INTERCONNECT_C0_0/MstConvertor_loop[0].mstrconv/rgsl/genblk3.rrs/holdDat15</cell>
+</row>
+</table>
+</doc>

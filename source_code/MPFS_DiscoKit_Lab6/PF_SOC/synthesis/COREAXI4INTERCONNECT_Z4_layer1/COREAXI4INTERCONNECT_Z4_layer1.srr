@@ -1,0 +1,408 @@
+# Wed Apr 22 09:43:00 2026
+
+
+Copyright (C) 1994-2025 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: W-2025.03M-SP1-1
+Install: C:\Microchip\Libero_SoC_2025.2\Libero_SoC\Synplify_Pro
+OS: Windows 10 or later
+Hostname: WDESTO11433
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202503actsp1, Build 108R, Built Nov 18 2025 06:37:26, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 192MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 208MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 195MB peak: 208MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 197MB peak: 208MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 198MB peak: 208MB)
+
+
+@N: MF104 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":21:7:21:26|Found compile point of type hard on View view:work.COREAXI4INTERCONNECT_Z4_layer1(verilog) 
+
+
+@N: MF105 |Performing bottom-up mapping of Compile point view:work.COREAXI4INTERCONNECT_Z4_layer1(verilog) 
+
+Begin environment creation (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 287MB peak: 287MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+Finished environment creation (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 302MB peak: 302MB)
+
+
+Start loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 302MB peak: 302MB)
+
+
+Finished loading ILMs (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 302MB peak: 302MB)
+
+
+Begin compile point sub-process log
+
+@N: MF106 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":21:7:21:26|Mapping Compile point view:work.COREAXI4INTERCONNECT_Z4_layer1(verilog) because 
+		 no database from previous run found.
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 302MB peak: 302MB)
+
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@W: BN114 :|Removing instance CP_fanout_cell_work_COREAXI4INTERCONNECT_Z4_layer1_verilog_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_inst (in view: work.Top(rtl)) because it does not drive other instances.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2733:2:2733:15|Tristate driver SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE31_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2725:2:2725:15|Tristate driver SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE30_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2717:2:2717:15|Tristate driver SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE29_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2709:2:2709:15|Tristate driver SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE28_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2701:2:2701:15|Tristate driver SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE27_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2693:2:2693:15|Tristate driver SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE26_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2685:2:2685:15|Tristate driver SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE25_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2677:2:2677:15|Tristate driver SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE24_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2669:2:2669:15|Tristate driver SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE23_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+@N: MO111 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\coreaxi4interconnect.v":2661:2:2661:15|Tristate driver SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) on net SLAVE22_RREADY (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)) has its enable tied to GND.
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s(verilog) (flattening)
+
+Dissolving instances under view:work.caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_32s_64s_0s_1s(verilog) (flattening)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 309MB peak: 309MB)
+
+
+Starting area decomp  (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:17s; Memory used current: 309MB peak: 310MB)
+
+Encoding state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk5\.brs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk2\.arrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk1\.awrs.currState[3:0] (in view: work.COREAXI4INTERCONNECT_Z4_layer1(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop[0].mstrconv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine rgsl.genblk5\.brs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine rgsl.genblk4\.wrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine rgsl.genblk3\.rrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine rgsl.genblk2\.arrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|There are no possible illegal states for state machine rgsl.genblk1\.awrs.currState[3:0] (in view: work.caxi4interconnect_SlaveConvertor_Z11_layer1(verilog)); safe FSM implementation is not required.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk5.brs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk4.wrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk3.rrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.mReady because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk1.awrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\regslicefull.v":183:1:183:6|Removing instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.sValid because it is equivalent to instance COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop[0].slvcnv.rgsl.genblk2.arrs.currState[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: FX107 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\ram_block.v":66:7:66:12|RAM genblk1\[0\]\.ram.mem[7:0] (in view: work.caxi4interconnect_FIFO_16s_9s_9s_15s_0s_16s_4s_0s_15s_0(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\actel\directcore\coreaxi4interconnect\2.9.100\rtl\vlog\core\axi4convertors\ram_block.v":66:7:66:12|RAM genblk1\[0\]\.ram.mem[7:0] (in view: work.caxi4interconnect_FIFO_16s_9s_9s_15s_0s_16s_4s_0s_15s_1(verilog)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+
+Finished area decomp  (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:18s; Memory used current: 310MB peak: 310MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 309MB peak: 311MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:19s; Memory used current: 309MB peak: 311MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:30s; Memory used current: 309MB peak: 311MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:30s; Memory used current: 310MB peak: 311MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 310MB peak: 311MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:31s; CPU Time elapsed 0h:00m:31s; Memory used current: 310MB peak: 311MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:32s; Memory used current: 310MB peak: 311MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:33s; Memory used current: 310MB peak: 311MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:33s		     3.96ns		 560 /       909
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:34s; CPU Time elapsed 0h:00m:34s; Memory used current: 310MB peak: 311MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:35s; CPU Time elapsed 0h:00m:34s; Memory used current: 310MB peak: 311MB)
+
+
+End compile point sub-process log
+
+@W: MT246 :"c:\daten\praktikum_entwicklung_resilenter_elektroniksysteme\2026-04-17_testexam_1\mpfs_discokit_lab6\pf_soc\component\work\pf_osc_c0\pf_osc_c0_0\pf_osc_c0_pf_osc_c0_0_pf_osc.v":13:17:13:25|Blackbox OSC_RC160MHZ is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock osc_rc160mhz with period 5.87ns 
+@N: MT615 |Found clock PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 with period 7.51ns 
+@N: MT615 |Found clock PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1 with period 93.90ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Apr 22 09:43:35 2026
+#
+
+
+Top view:               Top
+Requested Frequency:    10.7 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    C:\Daten\Praktikum_Entwicklung_resilenter_Elektroniksysteme\2026-04-17_TestExam_1\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 4.769
+
+                                            Requested     Estimated     Requested     Estimated               Clock                             Clock           
+Starting Clock                              Frequency     Frequency     Period        Period        Slack     Type                              Group           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     133.1 MHz     364.6 MHz     7.512         2.743         4.769     generated (from osc_rc160mhz)     default_clkgroup
+PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT1     10.7 MHz      NA            93.897        NA            NA        generated (from osc_rc160mhz)     default_clkgroup
+REFCLK                                      125.0 MHz     NA            8.000         NA            NA        declared                          default_clkgroup
+osc_rc160mhz                                170.4 MHz     NA            5.869         NA            NA        declared                          default_clkgroup
+================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                 Ending                                   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0  |  7.512       4.769  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                                                                                                                                     Starting                                                                                                                    Arrival          
+Instance                                                                                                                                                                             Reference                                   Type     Pin                      Net                                           Time        Slack
+                                                                                                                                                                                     Clock                                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4ReadID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.fifo_empty     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        fifoEmpty                                     0.201       4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk4\.wrs.currState[0]                                                                    PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        slaveWREADY[0]                                0.218       4.822
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk4\.wrs.currState[0]                                                                  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        MASTER_WREADY[0]                              0.218       4.829
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.MstConvertor_loop\[0\]\.mstrconv.rgsl.genblk3\.rrs.currState[0]                                                                  PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        slaveRREADY                                   0.218       4.887
+PFSOC_MSS_C0_0.I_MSS                                                                                                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_0_AXI4_M_RREADY      COREAXI4INTERCONNECT_C0_0.MASTER0_RREADY      0.596       4.964
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.currState[0]                                                                    PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        sr_dwc_slaveRREADY                            0.218       4.973
+PFSOC_MSS_C0_0.I_MSS                                                                                                                                                                 PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     MSS      FIC_0_AXI4_M_ARVALID     COREAXI4INTERCONNECT_C0_0.MASTER0_ARVALID     0.790       4.995
+PF_SRAM_AHBL_AXI_C0_0.COREAXI4SRAM_0.genblk1\.genblk1\.U_PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL.genblk2\.arready_mc                                                PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        COREAXI4INTERCONNECT_C0_0.SLAVE0_ARREADY      0.218       5.002
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4ReadID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.wrptr[0]       PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        wr_addr[0]                                    0.218       5.024
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4WriteID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.wrptr[0]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      Q                        wr_addr[0]                                    0.218       5.024
+==================================================================================================================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                                                                  Starting                                                                 Required          
+Instance                                                                                                          Reference                                   Type     Pin     Net         Time         Slack
+                                                                                                                  Clock                                                                                      
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[1]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[4]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[5]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[6]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[7]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[8]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[9]      PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[10]     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[11]     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[12]     PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0     SLE      EN      N_219_i     7.385        4.769
+=============================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.512
+    - Setup time:                            0.127
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.385
+
+    - Propagation time:                      2.616
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     4.769
+
+    Number of logic level(s):                2
+    Starting point:                          COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4ReadID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.fifo_empty / Q
+    Ending point:                            COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[1] / EN
+    The start point is clocked by            PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.756 period=7.512) on pin CLK
+    The end   point is clocked by            PF_CCC_C0_0/PF_CCC_C1_0/pll_inst_0/OUT0 [rising] (rise=0.000 fall=3.756 period=7.512) on pin CLK
+
+Instance / Net                                                                                                                                                                                Pin      Pin               Arrival     No. of    
+Name                                                                                                                                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4ReadID.genblk1\.rdata_interleave_fifo.fifo_ctrl_inst.fifo_empty     SLE      Q        Out     0.201     0.201 f     -         
+fifoEmpty                                                                                                                                                                            Net      -        -       0.547     -           3         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4ReadID.int_slaveVALID                                               CFG2     A        In      -         0.748 f     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.slvProtConv.genblk1\.u_SlvAxi4ReadID.int_slaveVALID                                               CFG2     Y        Out     0.047     0.795 r     -         
+sr_dwc_slaveRVALID                                                                                                                                                                   Net      -        -       0.563     -           4         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.currState_RNI7JU2E[1]                                                           CFG4     C        In      -         1.358 r     -         
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.currState_RNI7JU2E[1]                                                           CFG4     Y        Out     0.148     1.506 r     -         
+N_219_i                                                                                                                                                                              Net      -        -       1.110     -           73        
+COREAXI4INTERCONNECT_C0_0.COREAXI4INTERCONNECT_C0_0.SlvConvertor_loop\[0\]\.slvcnv.rgsl.genblk3\.rrs.sDat[1]                                                                         SLE      EN       In      -         2.616 r     -         
+===============================================================================================================================================================================================================================================
+Total path delay (propagation time + setup) of 2.743 is 0.522(19.0%) logic and 2.221(81.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+Writing compile point status file C:\Daten\Praktikum_Entwicklung_resilenter_Elektroniksysteme\2026-04-17_TestExam_1\MPFS_DiscoKit_Lab6\PF_SOC\synthesis\COREAXI4INTERCONNECT_Z4_layer1\cpprop
+
+Summary of Compile Points :
+*************************** 
+Name                               Status     Reason     
+---------------------------------------------------------
+COREAXI4INTERCONNECT_Z4_layer1     Mapped     No database
+=========================================================
+
+Process took 0h:00m:35s realtime, 0h:00m:35s cputime
+# Wed Apr 22 09:43:36 2026
+
+###########################################################]

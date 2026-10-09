@@ -1,0 +1,88 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "16:59:20    23-Jun-2026",
+	"Working Directory" : "C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_2025.2/Libero_SoC/Synplify_Pro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "16:57:33",
+   "Runtime" : "01m:47s",
+   "Executable Run Time" : "01m:45s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "16:57:33",
+      "Runtime" : "01m:47s",
+      "Executable Run Time" : "01m:45s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:57:33",
+         "Runtime" : "01m:07s",
+         "Executable Run Time" : "01m:05s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "16:57:33",
+            "Runtime" : "51s",
+            "Executable Run Time" : "50s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "16:57:33",
+               "Run Time" : "48s",
+               "Exe Run Time" : "47s",
+               "max_parallel_jobs" : "4",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Run Success" : "yes",
+               "Run Start Time" : "16:58:21",
+               "Run Time" : "03s",
+               "Exe Run Time" : "03s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "16:58:24",
+            "Run Time" : "16s",
+            "Exe Run Time" : "15s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:58:40",
+         "Runtime" : "40s",
+         "Executable Run Time" : "40s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Run Success" : "yes",
+            "Run Start Time" : "16:58:40",
+            "Run Time" : "40s",
+            "Exe Run Time" : "40s",
+            "max_parallel_jobs" : "4",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

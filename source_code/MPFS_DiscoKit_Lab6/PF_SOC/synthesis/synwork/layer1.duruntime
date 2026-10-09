@@ -1,0 +1,127 @@
+Runtime Summary:
+================
+
+	* Library: work, DesignUnit: caxi4interconnect_SlvProtocolConverter_Z9_layer1
+		Hardware Generation Phase   : 0h:00m:01s
+
+	* Library: work, DesignUnit: caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s
+		Hardware Generation Phase   : 0h:00m:01s
+
+	* Library: work, DesignUnit: caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_32s_64s_0s_1s
+		Hardware Generation Phase   : 0h:00m:01s
+
+	* Library: work, DesignUnit: COREAXI4INTERCONNECT_Z4_layer1
+		Hardware Generation Phase   : 0h:00m:06s
+
+	The following design units have negligible CPU times:
+	=====================================================
+		* Library: work, DesignUnit: COREAXI4INTERCONNECT_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_SlaveConvertor_Z11_layer1
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_SlvClockDomainCrossing_Z10_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RAM_BLOCK_16s_4s_9s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_FIFO_16s_9s_9s_15s_0s_16s_4s_0s_15s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_FIFO_CTRL_16s_15s_0s_4s_16s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_SlvAxi4ProtConvAXI4ID_1_9s_4s_0
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_SlvDataWidthConverter_Z8_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_12s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_83s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_77s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_72s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_MstrProtocolConverter_4s_0s_32s_64s_0_1s_8s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_MasterConvertor_Z7_layer1
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_MstrClockDomainCrossing_Z6_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_MstrDataWidthConv_Z5_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_11s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_82s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_76s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegSliceFull_71s_0_1_3_2
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_Axi4CrossBar_Z3_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_ResetSycnc
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CORERESET_PF_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CORERESET_PF_C0_CORERESET_PF_C0_0_CORERESET_PF
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_CCC_C1
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_CCC_C1_PF_CCC_C1_0_PF_CCC
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_OSC_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_OSC_C0_PF_OSC_C0_0_PF_OSC
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_PF_TPSRAM_AHB_AXI_0_PF_TPSRAM
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_MAINCTRL_Z2_layer1
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_COREAXI4SRAM_Z1_layer1
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PF_SRAM_AHBL_AXI_C0_COREAXI4SRAM_0_CoreAXI4SRAM_SLVIF_64s_32s_1s_1s_1s_1024s_1s_9s_0s
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PFSOC_INIT_MONITOR_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PFSOC_INIT_MONITOR_C0_PFSOC_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PFSOC_MSS_C0
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: PLL
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CLKINT
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: OSC_RC160MHZ
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: OR4
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: RAM1K20
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: CFG1
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: OR2
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: BANKEN
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: INIT
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: INBUF
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: GND
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: VCC
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: MSS
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: OUTBUF
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: INBUF_DIFF
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_SlvProtocolConverter_Z9_layer1
+			Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegisterSlice_1_1_1_1_1_9s_32s_64s_0s_1s
+			Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: caxi4interconnect_RegisterSlice_1_1_1_1_1_8s_32s_64s_0s_1s
+			Optimization Phase: Negligible CPU time
+		* Library: work, DesignUnit: COREAXI4INTERCONNECT_Z4_layer1
+			Optimization Phase: Negligible CPU time

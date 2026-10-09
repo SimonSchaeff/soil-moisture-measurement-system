@@ -1,0 +1,63 @@
+Software Version: 2025.2.0.14
+Programmer 'E2009OS3WN' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E2009OS3WN' : FlashPro5
+Opened 'C:\Daten\ERES-PROJECT\source_code\MPFS_DiscoKit_Lab6\PF_SOC\designer\Top\Top_fp\Top.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'MPFS095T'.
+The 'enable_device' command succeeded.
+PPD file 'C:/Daten/ERES-PROJECT/source_code/MPFS_DiscoKit_Lab6/PF_SOC/designer/Top/Top.ppd' has been loaded successfully.
+DESIGN : Top;  CHECKSUM : EE2A;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E2009OS3WN' : Scan Chain...
+Programmer 'E2009OS3WN' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'E2009OS3WN' : Check Chain...
+programmer 'E2009OS3WN' : Scan and Check Chain PASSED.
+programmer 'E2009OS3WN' : device 'MPFS095T' : Executing action PROGRAM
+Programmer 'E2009OS3WN' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT Algo_version[16] = 0002
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT IDCODE[32] = 0f8181cf
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT ISC_ENABLE_RESULT[32] = 00000000
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT CRCERR[1] = 0
+programmer 'E2009OS3WN' : device 'MPFS095T' : Programming Mode: JTAG
+programmer 'E2009OS3WN' : device 'MPFS095T' : Programming FPGA Array and sNVM...
+programmer 'E2009OS3WN' : device 'MPFS095T' : Calculating component bitstream digests using programming file...
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT Fabric component bitstream digest[256] = ce39e1a2b1d24ace7dc80dff6f00f7565c3c02c2a47fffa3e8ddfe5b99d0a792
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT sNVM component bitstream digest[256] = b0a9e2be29f47fa951a6a131a8dd9a9016e5ba87de5833c742b7f654428ea6e7
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT Entire bitstream digest[256] = 1e52612d6facaf963eabeb234986a5a338c87a7c6006a794db0ef712a63b6aaa
+programmer 'E2009OS3WN' : device 'MPFS095T' : Reading digests for all the segments from the device...
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT CHECK FABRIC digest[256] = 45b8b28760ce97555b8db09c3ef4552199d133a0ca54fc9489d30b2818943ff6
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT CC digest[256] = c876f99a0b518bf8e2c7b623ec0a532206f3bd122db1ca1e3847bfe7e585d7f3
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT SNVM digest[256] = 5e9cbead00662d48874714617f39122e162b075db5ae578136346b1b1ee8b07e
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UL digest[256] = 6536ff1fd0a85bd3eda079923dd36fe296d55bfff4dd26b63b8b8209c2b4648d
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST0 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST1 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST2 digest[256] = d45264ac8021c51b0e1a01764b865b74ccf1bec3d20c40078063d19891aba92e
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST3 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST4 digest[256] = 0000000000000000000000000000000000000000000000000000000000000000
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST5 digest[256] = d45264ac8021c51b0e1a01764b865b74ccf1bec3d20c40078063d19891aba92e
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST6 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UPERM digest[256] = 49a5818c4fff9561dff202eddf5d7b9dca9189afe8e0c6eb76de64f6726abb93
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT SYS digest[256] = e577807369d251fa46393f4c1f469186df51667241d94a50d54ec5dab0044c86
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST7 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT ENVM digest[256] = 55b852781b9995a44c939b64e441ae2724b96f99c8f4fb9a141cfc9842c4b0e3
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST8 digest[256] = 87eb736677196efe6270b2d09e04009e441ca3aed1077578afc813caa5ffc787
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST9 digest[256] = 24e58e26abd4a4ca46516d4614f6f4dddb7e9a4fed9e8439e1d7e5b0b56caa17
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT UKDIGEST10 digest[256] = 4bfb5927a93198eae8f0d920233d00439b9709d36eef982730206ad142fda5f5
+programmer 'E2009OS3WN' : device 'MPFS095T' : Please refer to System Services User Guide for more details about different digests.
+programmer 'E2009OS3WN' : device 'MPFS095T' : ===================================================================================
+programmer 'E2009OS3WN' : device 'MPFS095T' : EXPORT DSN[128] = 176600c8719903a4b0f313afcfe8e0fd
+programmer 'E2009OS3WN' : device 'MPFS095T' : ===================================================================================
+programmer 'E2009OS3WN' : Finished: Tue Jun 23 17:43:31 2026 (Elapsed time 00:01:55)
+programmer 'E2009OS3WN' : device 'MPFS095T' : Executing action PROGRAM PASSED.
+programmer 'E2009OS3WN' : Chain programming PASSED.
+Chain Programming Finished: Tue Jun 23 17:43:31 2026 (Elapsed time 00:01:55)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

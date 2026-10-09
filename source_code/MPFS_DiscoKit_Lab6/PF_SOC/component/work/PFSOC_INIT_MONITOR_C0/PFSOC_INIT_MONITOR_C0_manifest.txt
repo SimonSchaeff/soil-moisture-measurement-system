@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release 2025.2 (Version 2025.2.0.14)
+
+Date      :  Thu Jan  8 17:40:23 2026
+Project   :  C:\Users\M79113\Desktop\PolarFire_SoC\Discovery_kit\Libero\PF_SOC
+Component :  PFSOC_INIT_MONITOR_C0
+Family    :  PolarFireSoC
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/work/PFSOC_INIT_MONITOR_C0/PFSOC_INIT_MONITOR_C0_0/PFSOC_INIT_MONITOR_C0_PFSOC_INIT_MONITOR_C0_0_PFSOC_INIT_MONITOR.v
+    C:/Users/M79113/Desktop/PolarFire_SoC/Discovery_kit/Libero/PF_SOC/component/work/PFSOC_INIT_MONITOR_C0/PFSOC_INIT_MONITOR_C0.v
+
